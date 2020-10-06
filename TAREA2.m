@@ -1,5 +1,7 @@
 clc; clf; close all; clear all;
 %% Inicio
+addpath(genpath('l1magic'));
+addpath(genpath('TwIST_v2'));
 fftnc = @(x) fftshift(fftn(fftshift(x)));
 ifftnc = @(x) ifftshift(ifftn(ifftshift(x)));
 
